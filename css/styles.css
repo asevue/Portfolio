@@ -1,0 +1,81 @@
+/*  Project 2 Starting CSS */
+
+header, footer, nav, section, article, aside {
+        display: block;   
+}
+
+header, footer {
+    padding: 1em;
+    color: white; 
+    clear: left;
+    text-align: center;
+}
+
+body {
+	color: #000000;
+	background-color: #e9eef5;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+div.container {
+    background-color: white;
+    padding: 0;
+}
+
+.jumbotron {
+	/*background-color: #028ff3;*/
+	background-image: url("/images/blacklights.gif");
+	text-align: center;
+}
+.program-box a {
+    text-decoration:none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body footer {
+    margin-top: 15px;
+	text-align: center;
+	color: white;
+	width: 100%;
+}
+
+
+
+.form-control{
+	width: 60%;
+}
+[class*="col-"]{
+	float: left;
+	padding: 8px;
+}	
+@media only screen and (min-width: 768px) {
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66% }
+	.col-m-3  {width: 25%}
+	.col-m-4  {width: 33.33%}
+	.col-m-5  {width: 41.66%}
+	.col-m-6  {width: 50%}
+	.col-m-7  {width: 58.33%}
+	.col-m-8  {width: 66.66%}
+	.col-m-9  {width: 75%;}
+	.col-m-10  {width: 83.33%}
+	.col-m-11  {width: 91.66%}
+	.col-m-12  {width: 100%}
+
+
+}
+
+@media print {
+	.jumbotron {
+		display: none;
+	}
+
+	footer {
+		display: none;
+	}
+
+}
